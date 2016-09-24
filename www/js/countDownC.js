@@ -5,16 +5,16 @@
      
      if(countC==1){
      document.getElementById( "sampleOutputC" ).innerHTML = --countC;
-      if(enemys[0]=1){
+      if(enemys[0]==1){
       document.getElementById("19").style.display = "";
      }
-       if(enemys[1]=1){
+       if(enemys[1]==1){
       document.getElementById("20").style.display = "";
      }
-       if(enemys[2]=1){
+       if(enemys[2]==1){
       document.getElementById("21").style.display = "";
      }
-       if(enemys[3]=1){
+       if(enemys[3]==1){
       document.getElementById("22").style.display = "";
      }
    

@@ -1,9 +1,9 @@
     
         var enemys= new Array();
-            enemys[0]=1;
-            enemys[1]=1;
-            enemys[2]=1;
-            enemys[3]=1;
+           enemys[0]='1';
+            enemys[1]='1';
+            enemys[2]='1';
+            enemys[3]='1'; 
             
           var countA = 5;  
           
@@ -11,16 +11,16 @@
      
      if(countA==1){
      document.getElementById( "sampleOutputA" ).innerHTML = --countA;
-      if(enemys[0]=1){
+      if(enemys[0]==1){
       document.getElementById("0").style.display = "";
      }
-       if(enemys[1]=1){
+       if(enemys[1]==1){
       document.getElementById("1").style.display = "";
      }
-       if(enemys[2]=1){
+       if(enemys[2]==1){
       document.getElementById("2").style.display = "";
      }
-       if(enemys[3]=1){
+       if(enemys[3]==1){
       document.getElementById("3").style.display = "";
      }
    
