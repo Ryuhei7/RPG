@@ -7,30 +7,29 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <script type="text/javascript">
-     ons.bootstrap();  
+     ons.bootstrap();
      
      var $countA = 5;
-     function countDownA() {
-     if($countA==0){
-         window.location.href='page2.html'//ページ遷移
-     }else{
-    document.getElementById( "sampleOutputA" ).innerHTML = --$countA;
-     }
-     }
-     
-     
-     function visible(){
-    document.getElementById("2").style.visibility = "visible";
-}
+     var enemys= new Array();
+            enemys[0]=1;
+            enemys[1]=1;
+            enemys[2]=1;
+            enemys[3]=1;
+            
+            
+            
+  </script>
 
-    </script>
+<script language="JavaScript" src="js/countDownA.js"></script>
+<script language="JavaScript" src="js/reset.js"></script>
+<script language="JavaScript" src="js/getid.js"></script>    
     
 </head>
 <body>
 	<br />
-<ons-navigator var="myNavigator" page="page1.html">
+<ons-navigator var="myNavigator" page="top.html">
    </ons-navigator>
     
   
