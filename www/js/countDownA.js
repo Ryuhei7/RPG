@@ -23,7 +23,9 @@
        if(enemys[3]==1){
       document.getElementById("3").style.display = "";
      }
-   
+   if(enemys[0]==0&&enemys[1]==0&&enemys[2]==0&&enemys[3]==0&&countA==0){
+       myNavigator.pushPage('end.html');
+   }
       document.getElementById("5").style.display = "none";
       document.getElementById("6").style.display = "none";
       document.getElementById("7").style.display = "none";

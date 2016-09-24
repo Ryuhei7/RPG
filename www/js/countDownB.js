@@ -17,7 +17,9 @@
        if(enemys[3]==1){
       document.getElementById("12").style.display = "";
      }
-   
+   if(enemys[0]==0&&enemys[1]==0&&enemys[2]==0&&enemys[3]==0&&countB==0){
+       myNavigator.pushPage('end.html');
+   }
       document.getElementById("13").style.display = "none";
       document.getElementById("14").style.display = "none";
       document.getElementById("15").style.display = "none";
