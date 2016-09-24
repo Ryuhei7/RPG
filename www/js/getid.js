@@ -1,7 +1,8 @@
 // This is a JavaScript file
-function getid(element) {
-var id = element.id;
-enemys[id]=0;
-alert=test;
-document.write(aaaaa);
+function getid() {
+var id = this.id;
+if(id == 0|9|19|26|33){
+enemys[0]=0;
+}
+
 }
